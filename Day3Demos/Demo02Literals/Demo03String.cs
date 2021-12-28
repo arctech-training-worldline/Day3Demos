@@ -42,5 +42,15 @@ namespace Day3Demos.Demo02Literals
 
             Console.WriteLine(statement);
         }
+
+        public static void TestCopyTo()
+        {
+            string strSource = "changed";
+            char[] destination = { 'T', 'h', 'e', ' ', 'i', 'n', 'i', 't', 'i', 'a', 'l', ' ', 'a', 'r', 'r', 'a', 'y' };
+
+            Console.WriteLine(destination);
+            strSource.CopyTo ( 0, destination, 4, strSource.Length );
+            Console.WriteLine(destination);
+        }
     }
 }

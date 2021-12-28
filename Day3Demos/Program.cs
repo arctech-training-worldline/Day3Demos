@@ -18,6 +18,7 @@ namespace Day3Demos
             Demo03String.TestConstructors();
             Demo03String.TestSubstring();
             Demo03String.TestFormat();
+            Demo03String.TestCopyTo();
         }
     }
 }
