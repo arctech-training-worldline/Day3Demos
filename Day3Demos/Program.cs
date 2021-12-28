@@ -11,9 +11,13 @@ namespace Day3Demos
     {
         static void Main(string[] args)
         {
-            Demo02EscapeSequence.Test();
-            Demo02EscapeSequence.TestStringBuilder();
-            Demo02EscapeSequence.TestStringInterpolation();
+            //Demo02EscapeSequence.Test();
+            //Demo02EscapeSequence.TestStringBuilder();
+            //Demo02EscapeSequence.TestStringInterpolation();
+
+            Demo03String.TestConstructors();
+            Demo03String.TestSubstring();
+            Demo03String.TestFormat();
         }
     }
 }
