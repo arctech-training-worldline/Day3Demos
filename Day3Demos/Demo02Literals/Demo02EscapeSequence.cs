@@ -47,7 +47,6 @@ Pin: 400061";
             Console.WriteLine("Concatenation Example!");
             Console.WriteLine(agent);
             Console.WriteLine();
-            Console.WriteLine();
         }
 
         // stringbuilder is more efficent for multiple concatenations
@@ -59,22 +58,24 @@ Pin: 400061";
 
             Console.WriteLine("StringBuilder Example!");
             StringBuilder sb = new StringBuilder();
+
             sb.Append("Mr. ").Append(firstName).Append(" ").Append(lastName).Append(", Code: ").Append(code);
+
             Console.WriteLine(sb.ToString());
             Console.WriteLine();
         }
 
-        // $ was introducted in C# 6.0
+        // $ was introduced in C# 6.0
         public static void TestStringInterpolation()
         {
             string firstName = "James";
             string lastName = "Bond";
             string code = "007";
-
             
             Console.WriteLine("Interpolation Example!");
             string agent = $"Mr. {firstName} {lastName}, Code: {code}";
             Console.WriteLine(agent);
+            Console.WriteLine();
 
             string statement = $"{firstName} changed his behaviour at pivotal ages {{5, 11, 14, 20}}.";
             Console.WriteLine(statement);
