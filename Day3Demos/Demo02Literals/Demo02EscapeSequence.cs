@@ -22,6 +22,10 @@ namespace Day3Demos.Demo02Literals
             
             Console.WriteLine();
 
+            string strOld = "C-306, Morya House,\nOff Oshiwara Link Road,\nAndheri(W), Mumbai,\nPin: 400061";
+            Console.WriteLine(strOld);
+            Console.WriteLine();
+
             string str = 
 @"C-306, Morya House,
 Off Oshiwara Link Road,
@@ -29,7 +33,6 @@ Andheri(W), Mumbai,
 Pin: 400061";
 
             Console.WriteLine(str);
-
             Console.WriteLine();
         }
 
